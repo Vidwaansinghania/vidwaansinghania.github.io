@@ -302,6 +302,7 @@ p:last-child { margin-bottom: 0; }
   color: var(--graphite);
   margin: 0;
 }
+.card .card__link { margin-top: auto; padding-top: 1.1rem; font-size: 0.88rem; }
 
 /* ---------- footer ---------- */
 

@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vidwaan Singhania | Finance and Consulting</title>
-<meta name="description" content="BCom candidate at UVic Gustavson. Equity research, a white paper on AI-assisted research, case competitions and consulting work, based in Victoria BC.">
+<title>Vidwaan Singhania | AI and Automation for Finance</title>
+<meta name="description" content="I build AI agents and automation for finance work: a ten-agent equity research pipeline, open-source Claude skills, and a white paper on what they got right and wrong. BCom student at UVic Gustavson.">
 <link rel="canonical" href="https://vidwaansinghania.github.io/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Vidwaan Singhania | Finance and Consulting">
-<meta property="og:description" content="BCom candidate at UVic Gustavson. Equity research, a white paper on AI-assisted research, case competitions and consulting work, based in Victoria BC.">
+<meta property="og:title" content="Vidwaan Singhania | AI and Automation for Finance">
+<meta property="og:description" content="I build AI agents and automation for finance work: a ten-agent equity research pipeline, open-source Claude skills, and a white paper on what they got right and wrong. BCom student at UVic Gustavson.">
 <meta property="og:url" content="https://vidwaansinghania.github.io/">
 <meta property="og:image" content="https://vidwaansinghania.github.io/assets/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -21,10 +21,12 @@
   "name": "Vidwaan Singhania",
   "url": "https://vidwaansinghania.github.io/",
   "jobTitle": "BCom candidate",
+  "knowsAbout": ["AI agents", "Automation", "Equity research"],
   "address": { "@type": "PostalAddress", "addressLocality": "Victoria", "addressRegion": "BC", "addressCountry": "CA" },
   "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Victoria, Gustavson School of Business" },
   "sameAs": [
     "https://www.linkedin.com/in/vidwaansinghania/",
+    "https://github.com/Vidwaansinghania",
     "https://500px.com/p/vidwaansinghania",
     "https://www.instagram.com/vidwaansinghania/"
   ]
@@ -63,14 +65,15 @@
 
   <section class="hero">
     <div class="wrap">
-      <p class="kicker">Finance and consulting</p>
+      <p class="kicker">AI and automation</p>
       <h1>Vidwaan Singhania</h1>
-      <p class="standfirst">Finance and consulting, with the modelling to back it up.</p>
+      <p class="standfirst">I build AI agents and automation for finance work.</p>
       <p class="meta">
         <span>BCom 2027, UVic Gustavson</span><span>Author, <a class="link" href="#white-paper">One analyst and ten agents</a></span><span>Victoria, BC</span>
       </p>
       <div class="actions">
         <a class="btn" href="experience.html">See the work</a>
+        <a class="btn btn--ghost" href="https://github.com/Vidwaansinghania" rel="me noopener">GitHub</a>
         <a class="btn btn--ghost" href="https://www.linkedin.com/in/vidwaansinghania/" rel="me noopener">LinkedIn</a>
       </div>
     </div>
@@ -80,9 +83,8 @@
     <div class="wrap">
       <p class="kicker">Introduction</p>
       <h2>What I work on</h2>
-      <p style="margin-top:1.5rem">I study finance at the University of Victoria's Gustavson School of Business, graduating in 2027. This September I published a white paper, <a class="link" href="#white-paper">One analyst and ten agents</a>, comparing my own equity research with a ten-agent AI version of the same process.</p>
-      <p>Most of my time goes to valuation work and case competitions. I've written equity research on Air Canada for the CFA Institute Research Challenge, built a &euro;300M capital deployment model and a 10,000-path Monte Carlo pension simulation, and spent two summers consulting: process and cost work at SAMH, then operations and research at Xenex.</p>
-      <p>I use AI tools heavily in the analysis itself rather than around the edges of it, which is the part of my work that tends to surprise people.</p>
+      <p style="margin-top:1.5rem">I build AI agents and automation tools, mostly for finance work. The largest so far is a pipeline of ten agents that research a company, argue both sides and make a BUY, HOLD or SELL call. The <a class="link" href="#white-paper">white paper</a> above compares it with research I wrote myself.</p>
+      <p>Finance is the subject I know best, which is why the tools point at it. I study at UVic Gustavson, graduating in 2027. I've written equity research on Air Canada for the CFA Institute Research Challenge, built a &euro;300M capital deployment model and a 10,000-path Monte Carlo pension simulation, and spent two summers consulting at SAMH and Xenex.</p>
     </div>
   </section>
 
@@ -92,28 +94,31 @@
       <h2>Four things worth reading first</h2>
       <ul class="cards">
         <li class="card">
+          <p class="kicker">AI agents</p>
+          <h3>Multi-agent equity research</h3>
+          <p>Ten agents in eight stages: four analysts, a valuation agent, a bull, a bear, a judge, a risk check and a writer. Each run ends in a BUY, HOLD or SELL call that gets scored against the market a year later.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Multi-Agent-Equity-Research" rel="noopener">Code on GitHub</a></p>
+        </li>
+        <li class="card">
+          <p class="kicker">Claude skills</p>
+          <h3>Four finance roles for Claude</h3>
+          <p>Open-source skills that give Claude a job: a buy-side analyst, a chief risk officer who tries to break the thesis, a macro analyst and a portfolio manager who sizes the position.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills" rel="noopener">Code on GitHub</a></p>
+        </li>
+        <li class="card">
+          <p class="kicker">AI-assisted research</p>
+          <h3>Nine equity research reports</h3>
+          <p>Written with Claude over summer 2026, each with a DCF, three scenarios and a probability-weighted price target. Every call is logged and gets checked against the index from June 2027.</p>
+          <p class="card__link"><a class="link" href="papers/one-analyst-and-ten-agents.pdf">Covered in the white paper</a></p>
+        </li>
+        <li class="card">
           <p class="kicker">Equity research</p>
           <h3>CFA Institute Research Challenge</h3>
           <p>One of four students chosen to represent UVic. A 20-page report on Air Canada, DCF cross-checked against trading multiples.</p>
         </li>
-        <li class="card">
-          <p class="kicker">Consulting</p>
-          <h3>Xenex Consulting</h3>
-          <p>Operations and research co-op. Multi-audience reporting dashboard, Workspace migration, and bridge-fund policy research.</p>
-        </li>
-        <li class="card">
-          <p class="kicker">Consulting</p>
-          <h3>SAMH Consulting</h3>
-          <p>Mapped the order-to-delivery process and quantified the bottlenecks. The changes cut costs by about 8.5%.</p>
-        </li>
-        <li class="card">
-          <p class="kicker">Case competition</p>
-          <h3>McGill International Portfolio Challenge</h3>
-          <p>A two-pot pension fund model under regulatory constraints, tested over 10,000 Monte Carlo paths across 30 years.</p>
-        </li>
       </ul>
       <div class="actions">
-        <a class="btn btn--ghost" href="experience.html">All ten projects</a>
+        <a class="btn btn--ghost" href="experience.html">Consulting and case competitions</a>
       </div>
     </div>
   </section>
@@ -122,7 +127,7 @@
     <div class="wrap">
       <p class="kicker">Contact</p>
       <h2>Get in touch</h2>
-      <p style="margin-top:1.5rem">I'm looking for finance and consulting roles, and I'm happy to talk about case competitions or anything else on this site. LinkedIn is the fastest way to reach me.</p>
+      <p style="margin-top:1.5rem">I'm looking for roles where AI and automation meet finance, and I'm happy to talk about any of the projects here. LinkedIn is the fastest way to reach me.</p>
       <div class="actions">
         <a class="btn" href="https://www.linkedin.com/in/vidwaansinghania/" rel="me noopener">Message me on LinkedIn</a>
       </div>
