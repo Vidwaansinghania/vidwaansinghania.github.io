@@ -42,6 +42,7 @@
     <nav class="nav" aria-label="Primary">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
+      <a href="#ai-skills">AI skills</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
@@ -152,13 +153,13 @@
         </li>
         <li class="card">
           <p class="kicker">Claude skills</p>
-          <h3>Four finance roles for Claude</h3>
-          <p>Open-source skills that give Claude a job: a buy-side analyst, a chief risk officer who tries to break the thesis, a macro analyst and a portfolio manager who sizes the position.</p>
+          <h3>Nine skills for Claude</h3>
+          <p>Open-source skills that give Claude a job. Four form an investment committee: a buy-side analyst, a chief risk officer who tries to break the thesis, a macro analyst and a portfolio manager who sizes the position. Five more handle lecture notes, timetables, vault upkeep and GitHub docs.</p>
           <ul class="facts">
             <li>Claude skills</li>
             <li>Open source</li>
           </ul>
-          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills" rel="noopener">Code on GitHub</a></p>
+          <p class="card__link"><a class="link" href="#ai-skills">All nine skills</a></p>
         </li>
         <li class="card">
           <p class="kicker">AI-assisted research</p>
@@ -221,6 +222,80 @@
             <li>2nd of 20+ universities</li>
             <li>Consulting engagement followed</li>
           </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="ai-skills">
+    <div class="wrap">
+      <p class="kicker">AI skills</p>
+      <h2>Claude skills I've built</h2>
+      <p class="lede section__lede">Nine open-source skills, each a prompt Claude loads when a task calls for it. All of them are in one repo under the MIT licence.</p>
+      <div class="actions" style="margin-top:1.5rem">
+        <a class="btn btn--ghost" href="https://github.com/Vidwaansinghania/Claude-Skills" rel="noopener">Claude-Skills on GitHub</a>
+      </div>
+
+      <h3 class="subhead">The investment committee set</h3>
+      <p class="section__note">Four finance roles run in order: the analyst writes a thesis, the risk officer tries to break it, and the portfolio manager decides whether it gets capital. The macro analyst sets the context.</p>
+      <ul class="cards">
+        <li class="card">
+          <p class="kicker">Builds the case</p>
+          <h3>Buy-side equity analyst</h3>
+          <p>Fundamental research on one public company: business model, moat, financial quality, valuation, risks and catalysts. It ends in a probability-weighted view, a confidence score out of ten and a position suitability call.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills/tree/main/skills/buy-side-equity-analyst" rel="noopener">Skill on GitHub</a></p>
+        </li>
+        <li class="card">
+          <p class="kicker">Attacks the case</p>
+          <h3>Chief risk officer</h3>
+          <p>Starts from the assumption that the thesis is wrong and works to prove it: lists how the assumptions fail, models the worst realistic outcomes, then gives a drawdown estimate and a risk rating.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills/tree/main/skills/chief-risk-officer" rel="noopener">Skill on GitHub</a></p>
+        </li>
+        <li class="card">
+          <p class="kicker">Sets the regime</p>
+          <h3>Macro analyst</h3>
+          <p>Sorts the economy into one of six regimes from rates, inflation, growth, liquidity, credit and policy, then works forward to sector and factor positioning. It does not pick stocks.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills/tree/main/skills/macro-analyst" rel="noopener">Skill on GitHub</a></p>
+        </li>
+        <li class="card">
+          <p class="kicker">Sizes the position</p>
+          <h3>Portfolio manager</h3>
+          <p>Takes the analyst's expected return, the risk officer's downside and the macro regime, checks correlation with what is already held, and turns them into a position size.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills/tree/main/skills/portfolio-manager" rel="noopener">Skill on GitHub</a></p>
+        </li>
+      </ul>
+
+      <h3 class="subhead">Study, vault and GitHub tools</h3>
+      <ul class="cards">
+        <li class="card">
+          <p class="kicker">Study</p>
+          <h3>Lecture notes builder</h3>
+          <p>Merges a lecture transcript and the slides into one exam-ready note, filed in the right Obsidian course folder. Skipped slides are marked and anything the recording garbled is flagged.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills/tree/main/skills/lecture-notes-builder" rel="noopener">Skill on GitHub</a></p>
+        </li>
+        <li class="card">
+          <p class="kicker">Study</p>
+          <h3>Timetable to ICS</h3>
+          <p>Converts a class or exam timetable into an .ics calendar file. A bundled Python script generates the calendar, re-reads it and checks every event against the source before handing it over.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills/tree/main/skills/timetable-to-ics" rel="noopener">Skill on GitHub</a></p>
+        </li>
+        <li class="card">
+          <p class="kicker">Obsidian</p>
+          <h3>Vault health check</h3>
+          <p>Audits an Obsidian vault with a read-only script for orphan notes, broken links, duplicate names, unused attachments and stale index notes. It applies the unambiguous fixes and asks before anything destructive.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills/tree/main/skills/vault-health-check" rel="noopener">Skill on GitHub</a></p>
+        </li>
+        <li class="card">
+          <p class="kicker">Obsidian</p>
+          <h3>PDF to Profile note</h3>
+          <p>Turns a personality report, assessment or study guide PDF into a short note with every claim cited to a page, and flags conflicts with what the Profile already says.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills/tree/main/skills/pdf-to-profile-note" rel="noopener">Skill on GitHub</a></p>
+        </li>
+        <li class="card">
+          <p class="kicker">GitHub</p>
+          <h3>Project README publisher</h3>
+          <p>Turns a project's Obsidian notes into tab-style GitHub documentation and publishes it on a branch through a pull request. It never pushes to main.</p>
+          <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills/tree/main/skills/project-readme-publisher" rel="noopener">Skill on GitHub</a></p>
         </li>
       </ul>
     </div>
@@ -524,6 +599,7 @@
     <nav class="footer__col" aria-label="Sections">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
+      <a href="#ai-skills">AI skills</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
