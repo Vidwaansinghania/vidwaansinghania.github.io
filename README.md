@@ -5,9 +5,9 @@ Personal site for Vidwaan Singhania. Plain HTML and CSS, no build step, no depen
 ## Files
 
 ```
-index.html        home
-experience.html   the ten projects
-about.html        background
+index.html        the whole site: hero, about, experience, projects, skills, contact
+experience.html   redirect to /#experience (old link)
+about.html        redirect to /#about (old link)
 404.html
 assets/style.css  all styling, palette at the top in :root
 assets/fonts/     Tiempos Headline (licensed, subset) + Questrial (OFL)

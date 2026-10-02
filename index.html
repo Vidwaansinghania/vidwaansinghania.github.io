@@ -38,98 +38,354 @@
 
 <header class="masthead">
   <div class="wrap">
-    <a class="wordmark" href="index.html">Vidwaan Singhania</a>
+    <a class="wordmark" href="#top">Vidwaan Singhania</a>
     <nav class="nav" aria-label="Primary">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="experience.html">Experience</a>
-      <a href="about.html">About</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </nav>
+    <a class="btn btn--small" href="papers/one-analyst-and-ten-agents.pdf">White paper</a>
   </div>
 </header>
 
 <main id="main">
 
-  <section class="section" id="white-paper" style="border-bottom:1px solid var(--rule)">
+  <section class="hero" id="top">
+    <div class="wrap hero__grid">
+      <div>
+        <p class="badge">Open to roles in AI and finance</p>
+        <h1>Hi, I'm Vidwaan</h1>
+        <p class="standfirst">I'm a BCom student at UVic Gustavson, graduating in 2027.</p>
+        <p class="lede">I build AI agents and automation for finance work.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">See the work</a>
+          <a class="btn btn--ghost" href="https://github.com/Vidwaansinghania" rel="me noopener">GitHub</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/vidwaansinghania/" rel="me noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <aside class="feature" id="white-paper" aria-label="White paper">
+        <p class="kicker">White paper &middot; September 2026</p>
+        <h2>One analyst and ten agents</h2>
+        <p>Over the summer of 2026 I wrote equity research on nine companies with help from an AI model, then built a second version of the process in which ten AI agents gather evidence, argue and rule on each call. I ran both on Microsoft, Coca-Cola and Alphabet.</p>
+        <p>They agreed on the first two. On Alphabet the agents called a SELL where I had a HOLD.</p>
+        <p class="feature__meta">37 pages &middot; PDF, 1.3 MB &middot; A student project, not investment advice</p>
+        <div class="actions">
+          <a class="btn" href="papers/one-analyst-and-ten-agents.pdf">Read the paper</a>
+          <a class="btn btn--ghost" href="https://github.com/Vidwaansinghania/Multi-Agent-Equity-Research" rel="noopener">Code on GitHub</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="about">
     <div class="wrap">
-      <p class="kicker">White paper &middot; September 2026</p>
-      <h2>One analyst and ten agents</h2>
-      <p style="margin-top:1.5rem">Over the summer of 2026 I wrote equity research on nine companies with help from an AI model, then built a second version of the process in which ten AI agents gather evidence, argue and rule on each call. I ran both on Microsoft, Coca-Cola and Alphabet.</p>
-      <p>They agreed on the first two. On Alphabet the agents called a SELL where I had a HOLD. The paper covers what I built, what each run cost, what went wrong, and what I'll check when the calls come due in June 2027.</p>
-      <p class="meta" style="font-size:0.9rem;color:var(--graphite)">37 pages &middot; PDF, 1.3 MB &middot; A student project, not investment advice</p>
-      <div class="actions">
-        <a class="btn" href="papers/one-analyst-and-ten-agents.pdf">Read the paper</a>
-        <a class="btn btn--ghost" href="https://github.com/Vidwaansinghania/Multi-Agent-Equity-Research" rel="noopener">Code on GitHub</a>
+      <p class="kicker">About</p>
+      <h2>Bangalore to Victoria</h2>
+      <div class="split">
+        <div>
+          <p>I build AI agents and automation tools, mostly for finance work. The largest so far is a pipeline of ten agents that research a company, argue both sides and make a BUY, HOLD or SELL call. The <a class="link" href="#white-paper">white paper</a> compares it with research I wrote myself.</p>
+          <p>Finance is the subject I know best, which is why the tools point at it. I've written equity research on Air Canada for the CFA Institute Research Challenge, built a &euro;300M capital deployment model and a 10,000-path Monte Carlo pension simulation, and spent two summers consulting at SAMH and Xenex.</p>
+          <p>I grew up in Bangalore. Finishing high school there, I wanted to study abroad, and with my parents backing me I started at the University of Victoria in 2023. I came for a business degree and found the parts I actually care about: valuation, capital allocation, and building the model that settles an argument.</p>
+          <p>Outside finance I shoot landscape photography, play table tennis, and follow F1.</p>
+        </div>
+        <ul class="stats">
+          <li><span class="stats__n">10</span><span class="stats__l">agents in the research pipeline</span></li>
+          <li><span class="stats__n">9</span><span class="stats__l">equity research reports, summer 2026</span></li>
+          <li><span class="stats__n">2nd</span><span class="stats__l">of 20+ universities, Canadian Marketing League</span></li>
+        </ul>
+      </div>
+
+      <ul class="cards">
+        <li class="card">
+          <h3>AI agents</h3>
+          <p>Multi-agent pipelines and open-source Claude skills that do a finance job from evidence to a rated call.</p>
+        </li>
+        <li class="card">
+          <h3>Valuation</h3>
+          <p>DCFs and relative valuation, capital deployment models, Monte Carlo simulation.</p>
+        </li>
+        <li class="card">
+          <h3>Consulting</h3>
+          <p>Two summers of process mapping, cohort analysis and dashboards, where the answer has to be quantified.</p>
+        </li>
+        <li class="card">
+          <h3>Case competitions</h3>
+          <p>JDC West twice, Copenhagen Business School twice, McGill's portfolio challenge and the Canadian Marketing League.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="wrap">
+      <p class="kicker">Experience</p>
+      <h2>Where I've worked</h2>
+      <p class="lede section__lede">Two consulting summers, a live-in leadership role, and the organisations I've started. Newest first. Each one opens for the detail.</p>
+
+      <div class="roles">
+
+        <details class="role">
+          <summary>
+            <span class="role__aside">Co-op<span class="when">May &ndash; August 2026 &middot; Victoria, BC</span></span>
+            <span class="role__head">
+              <span class="role__title">Xenex Consulting: operations and research</span>
+              <span class="role__line">Built a reporting dashboard with separate internal, client and coach views for a healthcare consulting practice.</span>
+            </span>
+          </summary>
+          <div class="role__body">
+            <p>A healthcare consulting practice in BC. I built a multi-audience reporting dashboard for coaching-assignment data, with separate internal, client and coach views plus an equity view breaking placements down by gender. On the operations side I set up Google Workspace for the company domain end to end, wrote a Workspace versus Microsoft 365 comparison, and evaluated outreach and CRM tooling.</p>
+            <p>I also researched funding options for international co-op students, who are shut out of the federal Student Work Placement Program, and drafted a gap analysis and early specs for a bridge fund.</p>
+            <ul class="facts">
+              <li>Dashboard design</li>
+              <li>Google Workspace</li>
+              <li>Policy research</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="role">
+          <summary>
+            <span class="role__aside">Leadership<span class="when">August 2025 &ndash; present &middot; Victoria, BC</span></span>
+            <span class="role__head">
+              <span class="role__title">Residence Advisor, University of Victoria</span>
+              <span class="role__line">First point of contact for the students on my floor, including after-hours emergencies.</span>
+            </span>
+          </summary>
+          <div class="role__body">
+            <p>A live-in role. I'm the first point of contact for the students on my floor, which covers everything from mediating roommate conflicts to responding to after-hours emergencies. I also run wellness and community programming through the year.</p>
+            <ul class="facts">
+              <li>Live-in role</li>
+              <li>Crisis first response</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="role">
+          <summary>
+            <span class="role__aside">Internship<span class="when">May &ndash; August 2025</span></span>
+            <span class="role__head">
+              <span class="role__title">SAMH Consulting: business advisory</span>
+              <span class="role__line">Mapped the order-to-delivery process; the changes that came out of it cut costs by about 8.5%.</span>
+            </span>
+          </summary>
+          <div class="role__body">
+            <p>I mapped the end-to-end order-to-delivery process and quantified where it was losing time and money; the changes that came out of it cut costs by about 8.5%. I also segmented customer revenue cohorts to find which behaviour patterns were worth the most, and built automations for the repetitive parts of the workflow. I sat in on founder-led calls and presented what the data showed.</p>
+            <ul class="facts">
+              <li>~8.5% cost reduction</li>
+              <li>Process mapping</li>
+              <li>Cohort analysis</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="role">
+          <summary>
+            <span class="role__aside">Student organisation<span class="when">2024 &ndash; present</span></span>
+            <span class="role__head">
+              <span class="role__title">UVic Entrepreneurship Club</span>
+              <span class="role__line">Co-founded the club and ran the first pre-core case competition at Gustavson.</span>
+            </span>
+          </summary>
+          <div class="role__body">
+            <p>I co-founded the club under the UVic Commerce Student Society. We ran the first pre-core case competition at Gustavson in March 2024, and built the club around guest speakers and workshops for students who want to start something of their own. It's the second organisation I've founded, after the Interact E-Club in high school.</p>
+            <ul class="facts">
+              <li>Co-founder</li>
+              <li>First pre-core case competition</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="role">
+          <summary>
+            <span class="role__aside">Business<span class="when">2024 &middot; Bangalore, India</span></span>
+            <span class="role__head">
+              <span class="role__title">Freeze drying business</span>
+              <span class="role__line">Set up an operation to make and sell healthy, shelf-stable food.</span>
+            </span>
+          </summary>
+          <div class="role__body">
+            <p>Started after my own problem: as an international student I struggled to find food that was both healthy and shelf-stable. Freeze-drying keeps most of the nutrition in a food while making it light and long-lasting, so I set up an operation to make and sell it.</p>
+            <ul class="facts">
+              <li>Founder</li>
+            </ul>
+          </div>
+        </details>
+
       </div>
     </div>
   </section>
 
-  <section class="hero">
+  <section class="section" id="projects">
     <div class="wrap">
-      <p class="kicker">AI and automation</p>
-      <h1>Vidwaan Singhania</h1>
-      <p class="standfirst">I build AI agents and automation for finance work.</p>
-      <p class="meta">
-        <span>BCom 2027, UVic Gustavson</span><span>Author, <a class="link" href="#white-paper">One analyst and ten agents</a></span><span>Victoria, BC</span>
-      </p>
-      <div class="actions">
-        <a class="btn" href="experience.html">See the work</a>
-        <a class="btn btn--ghost" href="https://github.com/Vidwaansinghania" rel="me noopener">GitHub</a>
-        <a class="btn btn--ghost" href="https://www.linkedin.com/in/vidwaansinghania/" rel="me noopener">LinkedIn</a>
-      </div>
-    </div>
-  </section>
+      <p class="kicker">Projects</p>
+      <h2>Featured work</h2>
+      <p class="lede section__lede">AI agents and equity research first, then the case competitions.</p>
 
-  <section class="section">
-    <div class="wrap">
-      <p class="kicker">Introduction</p>
-      <h2>What I work on</h2>
-      <p style="margin-top:1.5rem">I build AI agents and automation tools, mostly for finance work. The largest so far is a pipeline of ten agents that research a company, argue both sides and make a BUY, HOLD or SELL call. The <a class="link" href="#white-paper">white paper</a> above compares it with research I wrote myself.</p>
-      <p>Finance is the subject I know best, which is why the tools point at it. I study at UVic Gustavson, graduating in 2027. I've written equity research on Air Canada for the CFA Institute Research Challenge, built a &euro;300M capital deployment model and a 10,000-path Monte Carlo pension simulation, and spent two summers consulting at SAMH and Xenex.</p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <p class="kicker">Selected work</p>
-      <h2>Four things worth reading first</h2>
       <ul class="cards">
         <li class="card">
           <p class="kicker">AI agents</p>
           <h3>Multi-agent equity research</h3>
           <p>Ten agents in eight stages: four analysts, a valuation agent, a bull, a bear, a judge, a risk check and a writer. Each run ends in a BUY, HOLD or SELL call that gets scored against the market a year later.</p>
+          <ul class="facts">
+            <li>Python</li>
+            <li>Claude Code</li>
+            <li>10 agents</li>
+          </ul>
           <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Multi-Agent-Equity-Research" rel="noopener">Code on GitHub</a></p>
         </li>
         <li class="card">
           <p class="kicker">Claude skills</p>
           <h3>Four finance roles for Claude</h3>
           <p>Open-source skills that give Claude a job: a buy-side analyst, a chief risk officer who tries to break the thesis, a macro analyst and a portfolio manager who sizes the position.</p>
+          <ul class="facts">
+            <li>Claude skills</li>
+            <li>Open source</li>
+          </ul>
           <p class="card__link"><a class="link" href="https://github.com/Vidwaansinghania/Claude-Skills" rel="noopener">Code on GitHub</a></p>
         </li>
         <li class="card">
           <p class="kicker">AI-assisted research</p>
           <h3>Nine equity research reports</h3>
           <p>Written with Claude over summer 2026, each with a DCF, three scenarios and a probability-weighted price target. Every call is logged and gets checked against the index from June 2027.</p>
+          <ul class="facts">
+            <li>DCF</li>
+            <li>Three scenarios</li>
+          </ul>
           <p class="card__link"><a class="link" href="papers/one-analyst-and-ten-agents.pdf">Covered in the white paper</a></p>
         </li>
         <li class="card">
-          <p class="kicker">Equity research</p>
-          <h3>CFA Institute Research Challenge</h3>
-          <p>One of four students chosen to represent UVic. A 20-page report on Air Canada, DCF cross-checked against trading multiples.</p>
+          <p class="kicker">Equity research &middot; 2025</p>
+          <h3>CFA Institute Research Challenge: Air Canada</h3>
+          <p>One of four students chosen to represent UVic. We wrote a 20-page report valuing Air Canada with a DCF cross-checked against trading multiples, then ran scenario and sensitivity analysis on yield, load factor, fuel cost and the CAD/USD rate.</p>
+          <ul class="facts">
+            <li>1 of 4 selected</li>
+            <li>20-page report</li>
+            <li>DCF and relative valuation</li>
+          </ul>
         </li>
       </ul>
-      <div class="actions">
-        <a class="btn btn--ghost" href="experience.html">Consulting and case competitions</a>
-      </div>
+
+      <h3 class="subhead">Case competitions</h3>
+      <ul class="cards">
+        <li class="card">
+          <p class="kicker">Pension modelling</p>
+          <h3>McGill International Portfolio Challenge</h3>
+          <p>I built a two-pot pension fund model from scratch under a set of regulatory constraints, then ran a Monte Carlo simulation of more than 10,000 paths to see how the fund behaved over a 30-year horizon. The output covered drawdown risk, the probability of underfunding, and how the plan held up in tail scenarios.</p>
+          <ul class="facts">
+            <li>10,000+ simulated paths</li>
+            <li>30-year horizon</li>
+            <li>Monte Carlo</li>
+          </ul>
+        </li>
+        <li class="card">
+          <p class="kicker">2024 and 2025</p>
+          <h3>Copenhagen Business School</h3>
+          <p>Two rounds with CBS. In 2024 I worked on a market entry strategy for a media company and quantified the revenue and margin impact. In 2025 I built the financial model behind a &euro;300M capital deployment plan, covering NPV, payback and the downside cases.</p>
+          <ul class="facts">
+            <li>&euro;300M deployment model</li>
+            <li>NPV and payback</li>
+            <li>Market entry</li>
+          </ul>
+        </li>
+        <li class="card">
+          <p class="kicker">2024 and 2025</p>
+          <h3>JDC West</h3>
+          <p>Two years on UVic's JDC West team. In 2024 I was the only first-year to qualify, competing on the International Business team, which placed 4th. In 2025 I led the Business Technology team.</p>
+          <ul class="facts">
+            <li>4th, International Business (2024)</li>
+            <li>Team lead (2025)</li>
+          </ul>
+        </li>
+        <li class="card">
+          <p class="kicker">September &ndash; November 2024</p>
+          <h3>Canadian Marketing League &times; Points for School</h3>
+          <p>The pre-season case for Points for School, a program that lets students pay tuition with credit card loyalty points. I built the campus go-to-market pitch and placed 2nd among campus representatives from more than 20 Canadian universities. It led to an independent consulting engagement with the company from December 2024 to May 2025, pitching a Big Five bank loyalty partnership aimed at the 500,000+ international students studying in Canada.</p>
+          <ul class="facts">
+            <li>2nd of 20+ universities</li>
+            <li>Consulting engagement followed</li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="skills">
+    <div class="wrap">
+      <p class="kicker">Skills</p>
+      <h2>What I work with</h2>
+      <dl class="skills">
+        <div>
+          <dt>Valuation and modelling</dt>
+          <dd>
+            <ul class="facts">
+              <li>DCF</li>
+              <li>Relative valuation</li>
+              <li>Monte Carlo simulation</li>
+              <li>Scenario and sensitivity analysis</li>
+              <li>Capital deployment models</li>
+              <li>NPV and payback</li>
+            </ul>
+          </dd>
+        </div>
+        <div>
+          <dt>AI and automation</dt>
+          <dd>
+            <ul class="facts">
+              <li>Claude Code</li>
+              <li>Claude skills</li>
+              <li>Multi-agent pipelines</li>
+              <li>Python</li>
+              <li>Workflow automation</li>
+            </ul>
+          </dd>
+        </div>
+        <div>
+          <dt>Consulting</dt>
+          <dd>
+            <ul class="facts">
+              <li>Process mapping</li>
+              <li>Cohort analysis</li>
+              <li>Market entry</li>
+              <li>Go-to-market</li>
+              <li>Dashboard design</li>
+            </ul>
+          </dd>
+        </div>
+        <div>
+          <dt>Tools</dt>
+          <dd>
+            <ul class="facts">
+              <li>Excel</li>
+              <li>Google Sheets</li>
+              <li>Google Workspace</li>
+              <li>Git</li>
+            </ul>
+          </dd>
+        </div>
+        <div>
+          <dt>Languages</dt>
+          <dd>
+            <ul class="facts">
+              <li>English</li>
+              <li>Hindi</li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
     <div class="wrap">
       <p class="kicker">Contact</p>
       <h2>Get in touch</h2>
       <p style="margin-top:1.5rem">I'm looking for roles where AI and automation meet finance, and I'm happy to talk about any of the projects here. LinkedIn is the fastest way to reach me.</p>
       <div class="actions">
         <a class="btn" href="https://www.linkedin.com/in/vidwaansinghania/" rel="me noopener">Message me on LinkedIn</a>
+        <a class="btn btn--ghost" href="https://github.com/Vidwaansinghania" rel="me noopener">GitHub</a>
       </div>
     </div>
   </section>
@@ -138,12 +394,24 @@
 
 <footer class="footer">
   <div class="wrap">
-    <span>Vidwaan Singhania &middot; Victoria, British Columbia</span>
-    <span class="social">
+    <div class="footer__col">
+      <span class="wordmark">Vidwaan Singhania</span>
+      <span>BCom at UVic Gustavson. AI agents and automation for finance work.</span>
+      <span>Victoria, British Columbia</span>
+    </div>
+    <nav class="footer__col" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer__col">
       <a href="https://www.linkedin.com/in/vidwaansinghania/" rel="me noopener">LinkedIn</a>
+      <a href="https://github.com/Vidwaansinghania" rel="me noopener">GitHub</a>
       <a href="https://500px.com/p/vidwaansinghania" rel="me noopener">500px</a>
       <a href="https://www.instagram.com/vidwaansinghania/" rel="me noopener">Instagram</a>
-    </span>
+    </div>
     <span class="colophon">Set in Tiempos Headline and Questrial.</span>
   </div>
 </footer>
