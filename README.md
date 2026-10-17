@@ -9,6 +9,7 @@ index.html        the whole site: hero, about, experience, projects, skills, con
 experience.html   redirect to /#experience (old link)
 about.html        redirect to /#about (old link)
 404.html
+papers/         the white paper PDF (multi-agent-whitepaper.pdf; the old one-analyst-and-ten-agents.pdf name serves the same file)
 assets/style.css  all styling, palette at the top in :root
 assets/fonts/     Tiempos Headline (licensed, subset) + Questrial (OFL)
 assets/img/og.jpg social share card, 1200x630
