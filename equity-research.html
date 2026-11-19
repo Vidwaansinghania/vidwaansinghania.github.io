@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Equity research | Vidwaan Singhania</title>
+<meta name="description" content="38 equity research reports on 31 companies, written two ways: by me alone (Method 1) and by a pipeline of ten Claude agents (multi agent).">
+<link rel="canonical" href="https://vidwaansinghania.github.io/equity-research.html">
+<meta name="theme-color" content="#2e2d2c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Equity research | Vidwaan Singhania">
+<meta property="og:description" content="38 reports on 31 companies, written by one analyst and by ten AI agents.">
+<meta property="og:url" content="https://vidwaansinghania.github.io/equity-research.html">
+<meta property="og:image" content="https://vidwaansinghania.github.io/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  (function () {
+    var d = document.documentElement;
+    d.classList.add('js');
+    try { var t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') d.dataset.theme = t; } catch (e) {}
+  })();
+</script>
+<script src="assets/main.js" defer></script>
+<script src="assets/equity.js" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-out" viewBox="0 0 16 16"><path d="M5 11 11 5M6 5h5v5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 1.5v2M10 16.5v2M1.5 10h2M16.5 10h2M4 4l1.4 1.4M14.6 14.6 16 16M4 16l1.4-1.4M14.6 5.4 16 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 20 20"><path d="M16.5 12.2A7 7 0 0 1 7.8 3.5a7 7 0 1 0 8.7 8.7Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+</svg>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header tone-hero" data-header>
+  <div class="wrap site-header__inner">
+    <a class="brand" href="index.html"><span class="brand__mark" aria-hidden="true">V</span>Vidwaan Singhania</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html#work">Work</a>
+      <a href="equity-research.html" aria-current="page">Equity research</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="site-header__end">
+      <span class="status">Co-op from January 2027</span>
+      <a class="btn btn--dark btn--sm" href="https://www.linkedin.com/in/vidwaansinghania/" rel="me noopener">LinkedIn<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch colour theme">
+        <svg class="icon icon--sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="icon icon--moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="er-hero tone-hero" data-hero>
+    <div class="wrap">
+      <h1 class="er-hero__title">Equity research</h1>
+      <p class="er-hero__line">38 reports on 31 companies, written two ways.</p>
+      <p class="er-hero__body">Each report is a full initiation: the business, the thesis, a DCF, three scenarios, the risks and a Buy, Hold or Sell rating on the probability-weighted twelve-month return. I wrote the Method 1 reports myself. The multi agent reports come from a pipeline of ten Claude agents that argue the call before a judge makes it. Seven companies have both.</p>
+
+      <div class="methods">
+        <article class="method method--1">
+          <p class="chip chip--1">Method 1</p>
+          <h2>One analyst</h2>
+          <p>I read the filings, build the model and make the call. 31 reports, prepared in 2026 and refreshed in November.</p>
+          <p class="method__mix">13 Buy, 13 Hold, 5 Sell</p>
+          <p class="links"><a class="link" href="#method-1">Jump to Method 1</a></p>
+        </article>
+        <article class="method method--2">
+          <p class="chip chip--2">Multi agent</p>
+          <h2>Ten agents</h2>
+          <p>Four analysts gather evidence, one values the company, a bull and a bear attack that value, a judge rules on the evidence, a risk agent checks the call and a writer produces the report. Seven reports, run between Aug 17 and Nov 19, 2026.</p>
+          <p class="method__mix">0 Buy, 5 Hold, 2 Sell</p>
+          <p class="links"><a class="link" href="#multi-agent">Jump to multi agent</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section er-compare" id="compare" aria-labelledby="compare-title">
+    <div class="wrap">
+      <h2 class="section-title" id="compare-title">Seven companies both methods cover</h2>
+      <table class="compare compare--wide">
+        <caption>Each method's most recent call. The dates differ, so a split can come from new information as well as a different view.</caption>
+        <thead><tr><th scope="col">Company</th><th scope="col">Method 1</th><th scope="col">Multi agent</th></tr></thead>
+        <tbody>
+          <tr class="is-split"><th scope="row">Alphabet Inc.</th><td>Buy, US$302</td><td>Sell, US$273.22</td></tr>
+          <tr class="is-split"><th scope="row">Caterpillar Inc.</th><td>Buy, US$700</td><td>Hold, US$684.79</td></tr>
+          <tr><th scope="row">The Coca-Cola Company</th><td>Sell, US$82</td><td>Sell, US$69.32</td></tr>
+          <tr><th scope="row">Microsoft Corporation</th><td>Hold, US$520</td><td>Hold, US$486.63</td></tr>
+          <tr><th scope="row">Moog Inc.</th><td>Hold, US$360</td><td>Hold, US$339.97</td></tr>
+          <tr class="is-split"><th scope="row">NVIDIA</th><td>Buy, US$199</td><td>Hold, US$158.66</td></tr>
+          <tr><th scope="row">Visa Inc.</th><td>Hold, US$395</td><td>Hold, US$379.71</td></tr>
+        </tbody>
+      </table>
+      <p class="er-note">These are public copies. Position sizes and price bands tied to my own accounts are cut from them, and my holdings are reduced to a one-sentence disclosure. Educational and research use only; not investment advice.</p>
+    </div>
+  </section>
+
+  <section class="section er-list er-list--1" id="method-1" aria-labelledby="m1-title">
+    <div class="wrap">
+      <p class="chip chip--1">Method 1</p>
+      <h2 class="section-title" id="m1-title">Written by one analyst</h2>
+      <div class="filters" role="group" aria-label="Filter Method 1 reports by rating">
+        <button type="button" data-filter="all" aria-pressed="true">All 31</button>
+        <button type="button" data-filter="buy" aria-pressed="false">Buy</button>
+        <button type="button" data-filter="hold" aria-pressed="false">Hold</button>
+        <button type="button" data-filter="sell" aria-pressed="false">Sell</button>
+      </div>
+      <ul class="reps" data-reps>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/5n-plus-method-1.pdf" aria-label="5N Plus Inc., Method 1 report, PDF, 23 pages">
+    <img src="assets/img/er/5n-plus-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>5N Plus Inc.</h3>
+    <p class="rep__id">TSX: VNP</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">C$31 target</span></p>
+    <p class="rep__meta">23 pages &middot; prepared Nov 17, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/alphabet-method-1.pdf" aria-label="Alphabet Inc., Method 1 report, PDF, 31 pages">
+    <img src="assets/img/er/alphabet-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Alphabet Inc.</h3>
+    <p class="rep__id">NASDAQ: GOOGL</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">US$302 target</span></p>
+    <p class="rep__meta">31 pages &middot; prepared Nov 4, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/alphabet-multi-agent.pdf">Multi agent report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/aluula-method-1.pdf" aria-label="Aluula Composites Inc., Method 1 report, PDF, 26 pages">
+    <img src="assets/img/er/aluula-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Aluula Composites Inc.</h3>
+    <p class="rep__id">TSXV: AUUA</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">C$3.50 target</span></p>
+    <p class="rep__meta">26 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/anthropic-method-1.pdf" aria-label="Anthropic, PBC, Method 1 report, PDF, 27 pages">
+    <img src="assets/img/er/anthropic-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Anthropic, PBC</h3>
+    <p class="rep__id">Nasdaq (proposed): ANT</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$69 target</span></p>
+    <p class="rep__meta">27 pages &middot; prepared Nov 11, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="sell">
+  <a class="rep__cover" href="papers/equity-research/apple-method-1.pdf" aria-label="Apple Inc., Method 1 report, PDF, 27 pages">
+    <img src="assets/img/er/apple-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Apple Inc.</h3>
+    <p class="rep__id">NASDAQ: AAPL</p>
+    <p class="rep__call"><span class="tag tag--sell">Sell</span><span class="rep__num">US$270 target</span></p>
+    <p class="rep__meta">27 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/ats-corporation-method-1.pdf" aria-label="ATS Corporation, Method 1 report, PDF, 27 pages">
+    <img src="assets/img/er/ats-corporation-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>ATS Corporation</h3>
+    <p class="rep__id">TSX: ATS</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">C$27 target</span></p>
+    <p class="rep__meta">27 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/biomarin-method-1.pdf" aria-label="BioMarin Pharmaceutical Inc., Method 1 report, PDF, 24 pages">
+    <img src="assets/img/er/biomarin-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>BioMarin Pharmaceutical Inc.</h3>
+    <p class="rep__id">NASDAQ: BMRN</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">US$74 target</span></p>
+    <p class="rep__meta">24 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/blue-moon-metals-method-1.pdf" aria-label="Blue Moon Metals Inc., Method 1 report, PDF, 25 pages">
+    <img src="assets/img/er/blue-moon-metals-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Blue Moon Metals Inc.</h3>
+    <p class="rep__id">TSXV: MOON, Nasdaq: BMM</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">C$5.27 target</span></p>
+    <p class="rep__meta">25 pages &middot; prepared Nov 17, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/caterpillar-method-1.pdf" aria-label="Caterpillar Inc., Method 1 report, PDF, 28 pages">
+    <img src="assets/img/er/caterpillar-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Caterpillar Inc.</h3>
+    <p class="rep__id">NYSE: CAT</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">US$700 target</span></p>
+    <p class="rep__meta">28 pages &middot; prepared Nov 4, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/caterpillar-multi-agent.pdf">Multi agent report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="sell">
+  <a class="rep__cover" href="papers/equity-research/coca-cola-method-1.pdf" aria-label="The Coca-Cola Company, Method 1 report, PDF, 26 pages">
+    <img src="assets/img/er/coca-cola-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>The Coca-Cola Company</h3>
+    <p class="rep__id">NYSE: KO</p>
+    <p class="rep__call"><span class="tag tag--sell">Sell</span><span class="rep__num">US$82 target</span></p>
+    <p class="rep__meta">26 pages &middot; prepared Nov 4, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/coca-cola-multi-agent.pdf">Multi agent report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/costco-method-1.pdf" aria-label="Costco Wholesale Corporation, Method 1 report, PDF, 21 pages">
+    <img src="assets/img/er/costco-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Costco Wholesale Corporation</h3>
+    <p class="rep__id">NASDAQ: COST</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$939 target</span></p>
+    <p class="rep__meta">21 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="sell">
+  <a class="rep__cover" href="papers/equity-research/credo-technology-method-1.pdf" aria-label="Credo Technology Group Holding Ltd, Method 1 report, PDF, 26 pages">
+    <img src="assets/img/er/credo-technology-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Credo Technology Group Holding Ltd</h3>
+    <p class="rep__id">Nasdaq: CRDO</p>
+    <p class="rep__call"><span class="tag tag--sell">Sell</span><span class="rep__num">US$131 target</span></p>
+    <p class="rep__meta">26 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/garmin-method-1.pdf" aria-label="Garmin Ltd., Method 1 report, PDF, 26 pages">
+    <img src="assets/img/er/garmin-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Garmin Ltd.</h3>
+    <p class="rep__id">NYSE: GRMN</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$259 target</span></p>
+    <p class="rep__meta">26 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/ibm-method-1.pdf" aria-label="International Business Machines Corp., Method 1 report, PDF, 29 pages">
+    <img src="assets/img/er/ibm-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>International Business Machines Corp.</h3>
+    <p class="rep__id">NYSE: IBM</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$230 target</span></p>
+    <p class="rep__meta">29 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/iren-method-1.pdf" aria-label="IREN Limited, Method 1 report, PDF, 33 pages">
+    <img src="assets/img/er/iren-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>IREN Limited</h3>
+    <p class="rep__id">NASDAQ: IREN</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">US$46 target</span></p>
+    <p class="rep__meta">33 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/microsoft-method-1.pdf" aria-label="Microsoft Corporation, Method 1 report, PDF, 32 pages">
+    <img src="assets/img/er/microsoft-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Microsoft Corporation</h3>
+    <p class="rep__id">NASDAQ: MSFT</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$520 target</span></p>
+    <p class="rep__meta">32 pages &middot; prepared Nov 4, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/microsoft-multi-agent.pdf">Multi agent report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/mogotes-metals-method-1.pdf" aria-label="Mogotes Metals Inc., Method 1 report, PDF, 25 pages">
+    <img src="assets/img/er/mogotes-metals-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Mogotes Metals Inc.</h3>
+    <p class="rep__id">TSXV: MOG</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">C$1.05 target</span></p>
+    <p class="rep__meta">25 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/moog-method-1.pdf" aria-label="Moog Inc., Method 1 report, PDF, 33 pages">
+    <img src="assets/img/er/moog-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Moog Inc.</h3>
+    <p class="rep__id">NYSE: MOG.A, MOG.B</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$360 target</span></p>
+    <p class="rep__meta">33 pages &middot; prepared Nov 4, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/moog-multi-agent.pdf">Multi agent report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/nokia-method-1.pdf" aria-label="Nokia Oyj, Method 1 report, PDF, 27 pages">
+    <img src="assets/img/er/nokia-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Nokia Oyj</h3>
+    <p class="rep__id">NYSE: NOK</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$8 target</span></p>
+    <p class="rep__meta">27 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/novo-nordisk-method-1.pdf" aria-label="Novo Nordisk A/S, Method 1 report, PDF, 28 pages">
+    <img src="assets/img/er/novo-nordisk-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Novo Nordisk A/S</h3>
+    <p class="rep__id">NYSE: NVO</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">US$45 target</span></p>
+    <p class="rep__meta">28 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/nvidia-method-1.pdf" aria-label="NVIDIA, Method 1 report, PDF, 27 pages">
+    <img src="assets/img/er/nvidia-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>NVIDIA</h3>
+    <p class="rep__id">NASDAQ: NVDA</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">US$199 target</span></p>
+    <p class="rep__meta">27 pages &middot; prepared Nov 18, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/nvidia-multi-agent.pdf">Multi agent report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/parker-hannifin-method-1.pdf" aria-label="Parker-Hannifin Corporation, Method 1 report, PDF, 26 pages">
+    <img src="assets/img/er/parker-hannifin-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Parker-Hannifin Corporation</h3>
+    <p class="rep__id">NYSE: PH</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$950 target</span></p>
+    <p class="rep__meta">26 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="sell">
+  <a class="rep__cover" href="papers/equity-research/rocket-lab-method-1.pdf" aria-label="Rocket Lab Corporation, Method 1 report, PDF, 28 pages">
+    <img src="assets/img/er/rocket-lab-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Rocket Lab Corporation</h3>
+    <p class="rep__id">Nasdaq: RKLB</p>
+    <p class="rep__call"><span class="tag tag--sell">Sell</span><span class="rep__num">US$45 target</span></p>
+    <p class="rep__meta">28 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/rockwell-automation-method-1.pdf" aria-label="Rockwell Automation, Inc., Method 1 report, PDF, 25 pages">
+    <img src="assets/img/er/rockwell-automation-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Rockwell Automation, Inc.</h3>
+    <p class="rep__id">NYSE: ROK</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$420 target</span></p>
+    <p class="rep__meta">25 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/rockwool-method-1.pdf" aria-label="ROCKWOOL A/S, Method 1 report, PDF, 30 pages">
+    <img src="assets/img/er/rockwool-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>ROCKWOOL A/S</h3>
+    <p class="rep__id">Nasdaq Copenhagen: ROCK B</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">DKK 232 target</span></p>
+    <p class="rep__meta">30 pages &middot; prepared Nov 16, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/servicenow-method-1.pdf" aria-label="ServiceNow, Inc., Method 1 report, PDF, 9 pages">
+    <img src="assets/img/er/servicenow-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>ServiceNow, Inc.</h3>
+    <p class="rep__id">NYSE: NOW</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">US$120 target</span></p>
+    <p class="rep__meta">9 pages &middot; prepared Nov 5, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/take-two-interactive-method-1.pdf" aria-label="Take-Two Interactive, Method 1 report, PDF, 23 pages">
+    <img src="assets/img/er/take-two-interactive-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Take-Two Interactive</h3>
+    <p class="rep__id">NASDAQ: TTWO</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">US$224 target</span></p>
+    <p class="rep__meta">23 pages &middot; prepared Nov 18, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="sell">
+  <a class="rep__cover" href="papers/equity-research/tesla-method-1.pdf" aria-label="Tesla, Inc., Method 1 report, PDF, 15 pages">
+    <img src="assets/img/er/tesla-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Tesla, Inc.</h3>
+    <p class="rep__id">NASDAQ: TSLA</p>
+    <p class="rep__call"><span class="tag tag--sell">Sell</span><span class="rep__num">US$120 target</span></p>
+    <p class="rep__meta">15 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/visa-method-1.pdf" aria-label="Visa Inc., Method 1 report, PDF, 28 pages">
+    <img src="assets/img/er/visa-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Visa Inc.</h3>
+    <p class="rep__id">NYSE: V</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$395 target</span></p>
+    <p class="rep__meta">28 pages &middot; prepared Nov 13, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/visa-multi-agent.pdf">Multi agent report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/waste-management-method-1.pdf" aria-label="Waste Management, Inc., Method 1 report, PDF, 20 pages">
+    <img src="assets/img/er/waste-management-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Waste Management, Inc.</h3>
+    <p class="rep__id">NYSE: WM</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$220.00 target</span></p>
+    <p class="rep__meta">20 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+<li class="rep" data-rating="buy">
+  <a class="rep__cover" href="papers/equity-research/webull-method-1.pdf" aria-label="Webull Corporation, Method 1 report, PDF, 28 pages">
+    <img src="assets/img/er/webull-method-1.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Webull Corporation</h3>
+    <p class="rep__id">Nasdaq: BULL</p>
+    <p class="rep__call"><span class="tag tag--buy">Buy</span><span class="rep__num">US$5.66 target</span></p>
+    <p class="rep__meta">28 pages &middot; prepared Nov 4, 2026</p>
+  </div>
+</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section er-list er-list--2" id="multi-agent" aria-labelledby="ma-title">
+    <div class="wrap">
+      <p class="chip chip--2">Multi agent</p>
+      <h2 class="section-title" id="ma-title">Argued by ten agents</h2>
+      <div class="filters" role="group" aria-label="Filter multi agent reports by rating">
+        <button type="button" data-filter="all" aria-pressed="true">All 7</button>
+        <button type="button" data-filter="buy" aria-pressed="false">Buy</button>
+        <button type="button" data-filter="hold" aria-pressed="false">Hold</button>
+        <button type="button" data-filter="sell" aria-pressed="false">Sell</button>
+      </div>
+      <ul class="reps" data-reps>
+<li class="rep" data-rating="sell">
+  <a class="rep__cover" href="papers/equity-research/alphabet-multi-agent.pdf" aria-label="Alphabet Inc., Multi agent report, PDF, 26 pages">
+    <img src="assets/img/er/alphabet-multi-agent.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Alphabet Inc.</h3>
+    <p class="rep__id">NASDAQ: GOOGL</p>
+    <p class="rep__call"><span class="tag tag--sell">Sell</span><span class="rep__num">US$273.22 target</span></p>
+    <p class="rep__meta">26 pages &middot; dated Sep 19, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/alphabet-method-1.pdf">Method 1 report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/caterpillar-multi-agent.pdf" aria-label="Caterpillar Inc., Multi agent report, PDF, 25 pages">
+    <img src="assets/img/er/caterpillar-multi-agent.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Caterpillar Inc.</h3>
+    <p class="rep__id">NYSE: CAT</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$684.79 target</span></p>
+    <p class="rep__meta">25 pages &middot; dated Oct 9, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/caterpillar-method-1.pdf">Method 1 report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="sell">
+  <a class="rep__cover" href="papers/equity-research/coca-cola-multi-agent.pdf" aria-label="The Coca-Cola Company, Multi agent report, PDF, 25 pages">
+    <img src="assets/img/er/coca-cola-multi-agent.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>The Coca-Cola Company</h3>
+    <p class="rep__id">NYSE: KO</p>
+    <p class="rep__call"><span class="tag tag--sell">Sell</span><span class="rep__num">US$69.32 target</span></p>
+    <p class="rep__meta">25 pages &middot; dated Aug 21, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/coca-cola-method-1.pdf">Method 1 report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/microsoft-multi-agent.pdf" aria-label="Microsoft Corporation, Multi agent report, PDF, 21 pages">
+    <img src="assets/img/er/microsoft-multi-agent.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Microsoft Corporation</h3>
+    <p class="rep__id">NASDAQ: MSFT</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$486.63 target</span></p>
+    <p class="rep__meta">21 pages &middot; dated Aug 17, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/microsoft-method-1.pdf">Method 1 report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/moog-multi-agent.pdf" aria-label="Moog Inc., Multi agent report, PDF, 20 pages">
+    <img src="assets/img/er/moog-multi-agent.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Moog Inc.</h3>
+    <p class="rep__id">NYSE: MOG.A</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$339.97 target</span></p>
+    <p class="rep__meta">20 pages &middot; dated Oct 6, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/moog-method-1.pdf">Method 1 report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/nvidia-multi-agent.pdf" aria-label="NVIDIA Corporation, Multi agent report, PDF, 23 pages">
+    <img src="assets/img/er/nvidia-multi-agent.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>NVIDIA Corporation</h3>
+    <p class="rep__id">NASDAQ: NVDA</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$158.66 target</span></p>
+    <p class="rep__meta">23 pages &middot; dated Nov 19, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/nvidia-method-1.pdf">Method 1 report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+<li class="rep" data-rating="hold">
+  <a class="rep__cover" href="papers/equity-research/visa-multi-agent.pdf" aria-label="Visa Inc., Multi agent report, PDF, 28 pages">
+    <img src="assets/img/er/visa-multi-agent.jpg" width="582" height="753" alt="" loading="lazy">
+  </a>
+  <div class="rep__body">
+    <h3>Visa Inc.</h3>
+    <p class="rep__id">NYSE: V</p>
+    <p class="rep__call"><span class="tag tag--hold">Hold</span><span class="rep__num">US$379.71 target</span></p>
+    <p class="rep__meta">28 pages &middot; dated Sep 26, 2026</p>
+    <p class="rep__also"><a class="link" href="papers/equity-research/visa-method-1.pdf">Method 1 report<svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a></p>
+  </div>
+</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p>&copy; 2026 Vidwaan Singhania</p>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://www.linkedin.com/in/vidwaansinghania/" rel="me noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/Vidwaansinghania" rel="me noopener">GitHub</a></li>
+      <li><a href="https://500px.com/p/vidwaansinghania" rel="me noopener">500px</a></li>
+      <li><a href="https://www.instagram.com/vidwaansinghania/" rel="me noopener">Instagram</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
